@@ -10,6 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@api3/airnode-admin": "^0.14.0",
     "next": "canary",
     "react": "latest",
     "react-dom": "latest"
