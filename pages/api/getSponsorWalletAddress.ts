@@ -8,7 +8,7 @@ import { deriveSponsorWalletAddress } from "@api3/airnode-admin";
 export const config = {
   runtime: "edge",
   unstable_allowDynamic: [
-    "/node_modules/lodash/**"
+    "/node_modules/.pnpm/lodash@4.17.21/**"
   ]
 };
 
