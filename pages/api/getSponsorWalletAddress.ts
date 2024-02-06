@@ -7,6 +7,9 @@ import { deriveSponsorWalletAddress } from "@api3/airnode-admin";
 
 export const config = {
   runtime: "edge",
+  unstable_allowDynamic: [
+    "/node_modules/lodash/**"
+  ]
 };
 
 export default async function handler(req: NextRequest) {
